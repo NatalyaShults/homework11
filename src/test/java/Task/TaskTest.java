@@ -63,7 +63,7 @@ public class TaskTest {
 
     @Test
     public void testMatchesForMeetingWhenFalse() {
-        Meeting meeting = new Meeting(555,"Выкатка 3й версии приложения", "Приложение НетоБанка", "Во вторник после обеда");
+        Meeting meeting = new Meeting(555, "Выкатка 3й версии приложения", "Приложение НетоБанка", "Во вторник после обеда");
 
         boolean actual = meeting.matches("Позвонить");
 
